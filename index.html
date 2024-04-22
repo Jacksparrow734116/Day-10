@@ -1,0 +1,92 @@
+<html>
+    <head>
+<style>
+  form{
+    background-color: greenyellow;
+    border-radius: 6px;
+    padding: 20px;
+    width: 50%;
+  }
+  .formele{
+    border: 2px solid white;
+    border-radius: 5px;
+    margin-bottom: 10px;
+   padding: 5px;
+  display: flex;
+  align-items: center;
+
+
+  }
+  input{
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+  }
+  textarea{
+    border: none;
+  }
+  input[type="text"],input[type="email"],input[type="tel"],input[type="password"]{
+    width: 300px;
+  }
+  label{
+    font-weight: 700;
+    font-size: 14px;
+  }
+  p{
+    width: 150px;
+  }
+  
+</style>
+    </head>
+    <body>
+        <form>
+          <div class="formele">
+           <p><label> Name</label></p> 
+
+            <input type="text" placeholder="First and last name">
+          </div>
+          
+        
+            <div class="formele">
+                <p><label>Email</label></p>
+                <input type="email" placeholder="example@gmail.com"><br>
+            </div>
+            <div class="formele">
+                <p><label for="phone">Phone</label></p>
+                <input type="tel" placeholder="Enter Mobile Number">
+            </div>
+            <div class="formele">
+                <p><label for="Address">Address:</label></p>
+                <textarea rows="10" cols="35" ></textarea>
+            </div>
+            <div class="formele">
+                <p><label>Post Code</label></p>
+                <input type="text"><br>
+            </div>
+            <div class="formele">
+                <p><label>Country</label></p>
+                <input type="text">
+            </div>
+           
+    <div class="formele">
+        <p><label>Card Type</label></p>
+        <input type="radio">VISA
+        <input type="radio">AmFx
+        <input type="radio">Master Card
+    </div>
+    <div class="formele">
+        <p><label>Card Number</label></p>
+        <input type="text"><br>
+    </div>
+    <div class="formele">
+       <p><label>Security Code</label></p> 
+        <input type="password"><br>
+    </div>
+<div class="formele">
+    <p><label>Name on Card</label></p>
+    <input type="text" placeholder="Enter name on the card">
+</div>   
+        </form>
+        <button><a href="register.html">Register Form</a></button>
+    </body>
+</html>
